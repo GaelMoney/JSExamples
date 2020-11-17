@@ -6,11 +6,11 @@ cols.addEventListener("change", update)                             //call updat
 size.addEventListener("change", update)
 
 function update(){
-    grid.innerHTML = ""                                             //clear grid
-    for(i=0;i<size.value;i++){                                      //loop according to size
-        
-        if(i % cols.value == 0 && i!=0)grid.innerHTML+="<br>"       //Add <br> when grid item is devidable by number of collums
-        grid.innerHTML += "X"                                       //Add 'X' for every griditem
+    //TO DO:
+    //* clear grid
+    //* loop according to size
+    //* Add <br> when grid item is devidable by number of collums
+    //* Add 'X' for every griditem
 
-    }
+    
 }
