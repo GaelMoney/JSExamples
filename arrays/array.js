@@ -1,5 +1,6 @@
 //Create your arrays an variables
 //get DOM elements
+//
 
 btn_add.addEventListener("click", ()=>{
     //handle adding a new todo
